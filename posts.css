@@ -1,0 +1,47 @@
+body{
+  background-image: linear-gradient(rgba(25,43,76,0.8),rgba(25,43,76,0.8)), url("https://cdn.pixabay.com/photo/2020/06/20/19/18/the-green-leaves-5322104_960_720.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-size: smaller;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    width: 97%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(204, 255, 204);
+    opacity: 0.5;
+  }
+
+  h1{
+    background-color: #04AA6D;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5px;
+
+}
+
+h2{
+    
+    border-radius: 5px;
+}
+
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 25px;
+    }
+     h2 {
+      font-size: 15px;
+    }
+    p {
+        font-size: 12px;
+      }
+     
+  }
+
